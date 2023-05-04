@@ -1,6 +1,6 @@
 import '../../index.dart';
-part 'page_routes.dart';
 
+part 'app_pages.routes.dart';
 
 class AppPages {
   static final routes = [
@@ -9,6 +9,9 @@ class AppPages {
       name: Routes.app_about,
       page: () => const AppAbout(),
     ),
-      ];
-    //* fram
+    GetPage(
+        name: Routes.app_buy,
+        page: () => const AppBuy()
+    )
+  ];
 }

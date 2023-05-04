@@ -14,6 +14,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "card_swiper",
+      "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/card_swiper-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/characters-1.2.1",
       "packageUri": "lib/",
@@ -69,9 +75,9 @@
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/http-0.13.5",
+      "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/http-0.13.6",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "http_parser",
@@ -81,7 +87,7 @@
     },
     {
       "name": "intl",
-      "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/intl-0.18.0",
+      "rootUri": "file:///Users/kimhyesung/.pub-cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -182,13 +188,13 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "clearblue",
+      "name": "oview_w",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-04-28T00:32:35.603677Z",
+  "generated": "2023-05-03T08:55:40.012028Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

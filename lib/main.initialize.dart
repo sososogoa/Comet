@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
+import 'index.dart';
 import 'main.controller.dart';
 
 class MyAppInitialize extends StatelessWidget {
@@ -12,7 +10,10 @@ class MyAppInitialize extends StatelessWidget {
       init: MainController(),
       builder: (_) => MaterialApp(
         title: 'MyApp',
-        home: Container(), // 홈 화면 위젯 작성
+        home: GetMaterialApp(
+          initialRoute: Routes.app_about,
+          getPages: AppPages.routes,
+        ), // 홈 화면 위젯 작성
       ),
     );
   }

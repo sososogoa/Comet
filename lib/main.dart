@@ -13,22 +13,25 @@ void main() {
   runApp(MyAppInitialize());
 }
 
-class Clearblue extends StatefulWidget {
-  const Clearblue({Key? key}) : super(key: key);
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
-  State<Clearblue> createState() => _ClearblueState();
+  MyAppState createState() => MyAppState();
 }
 
-class _ClearblueState extends State<Clearblue> {
+class MyAppState extends State<MyApp> {
+
   @override
   void dispose() {
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Clearblue',
+      title: 'OVIEW-W',
+      getPages: AppPages.routes,
       builder: (context, child) {
         Get.find<MainController>().updateScreen(context);
         return ResponsiveBreakpoints.builder(
@@ -40,6 +43,7 @@ class _ClearblueState extends State<Clearblue> {
             Breakpoint(start: 0, end: 540, name: MOBILE),
             Breakpoint(start: 541, end: 800, name: TABLET),
           ],
+          // mediaQueryData: mediaQueryData = MediaQuery.of(context),
         );
       },
     );
