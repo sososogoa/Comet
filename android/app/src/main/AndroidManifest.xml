@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.clearblue">
+    package="com.example.comet">
    <application
-        android:label="clearblue"
+        android:label="comet"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

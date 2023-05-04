@@ -30,7 +30,7 @@ class MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'OVIEW-W',
+      title: 'Comet',
       getPages: AppPages.routes,
       builder: (context, child) {
         Get.find<MainController>().updateScreen(context);

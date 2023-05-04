@@ -1,4 +1,4 @@
-import 'package:oview_w/index.dart';
+import 'package:comet/index.dart';
 import 'package:http/http.dart' as http;
 
 import '../main.controller.dart';

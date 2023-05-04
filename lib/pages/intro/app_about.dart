@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:card_swiper/card_swiper.dart';
-import 'package:oview_w/index.dart';
+import 'package:comet/index.dart';
 
 class YourOwnPagination extends StatelessWidget {
   final int activeIndex;
@@ -85,14 +83,13 @@ class _AppAboutState extends State<AppAbout> {
                 child: Stack(
                   children: [
                     Center(
-
                       child: SizedBox(
                           width: 379,
                           height: 699,
                           // width: MediaQuery.of(context).size.width * 0.8,
                           // height: MediaQuery.of(context).size.height * 0.6,
                           child: Padding(
-                              padding: const EdgeInsets.only(top: 111.0),
+                              padding: const EdgeInsets.only(top: 60.0),
                               child: Card(
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(10.0),
